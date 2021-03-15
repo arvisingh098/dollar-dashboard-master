@@ -1,0 +1,49 @@
+.BalanceBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 12px 6px;
+}
+
+.BalanceBlock h3 {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.balance-value {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  display: block;
+  margin: 15px 0 0;
+}
+
+@media only screen and (max-width: 1680px) {
+  .balance-value {
+    font-size: 100%;
+  }
+}
+
+@media only screen and (max-width: 1080px) {
+  .balance-value {
+    font-size: 90%;
+    text-align: left;
+  }
+
+  .BalanceBlock h3 {
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .BalanceBlock {
+    margin: 7px;
+  }
+}

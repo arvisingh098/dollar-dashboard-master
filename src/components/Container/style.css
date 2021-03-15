@@ -1,0 +1,55 @@
+.Container {
+  margin: 120px 110px;
+}
+
+@media only screen and (max-width: 1680px) {
+  .Container {
+    margin: 100px 60px;
+  }
+
+  h1 {
+    font-size: 4rem !important;
+  }
+
+  p,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  span {
+    font-size: 120% !important;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .Container {
+    margin: 100px 40px;
+  }
+
+  h1 {
+    font-size: 3rem !important;
+  }
+
+  p,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  span {
+    font-size: 115% !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .Container {
+    margin: 70px 28px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .Container {
+    margin: 50px 15px;
+  }
+}

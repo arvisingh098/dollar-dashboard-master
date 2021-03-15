@@ -1,0 +1,33 @@
+.FlatCard {
+  border: 1px solid var(--green);
+  padding: 20px;
+  width: 25%;
+}
+
+.FlatCard a {
+  text-decoration: none;
+  color: var(--green);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.FlatCard a div i {
+  font-size: 60px;
+  margin: 30px 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .FlatCard {
+    min-width: 360px;
+    max-width: 70%;
+    margin: 16px auto;
+  }
+}
+
+@media only screen and (max-width: 552px) {
+  .FlatCard {
+    width: 100%;
+    margin: 12px auto;
+  }
+}

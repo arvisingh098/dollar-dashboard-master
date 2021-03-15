@@ -1,0 +1,34 @@
+.BigNumberInput {
+  margin-right: -5px;
+}
+.BigNumberInput input {
+  height: 51px;
+  width: 231px;
+  left: 560px;
+  top: 1521px;
+  border-radius: 0px;
+  background: var(--black);
+  border: 1px solid var(--green);
+  color: var(--green);
+  padding-right: 55px;
+  padding-left: 15px;
+}
+
+.BigNumberInput input::-webkit-outer-spin-button,
+.BigNumberInput input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+.BigNumberInput input[type="number"] {
+  -moz-appearance: textfield; /* Firefox */
+}
+
+@media only screen and (max-width: 768px) {
+  .BigNumberInput input {
+    width: 160px;
+    padding-right: 35px;
+    padding-left: 10px;
+  }
+}

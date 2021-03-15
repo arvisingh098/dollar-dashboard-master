@@ -1,0 +1,55 @@
+.CardContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: #00ff19;
+  border: solid 2px #00ff19;
+  margin-top: 40px 0;
+  margin-right: 16px;
+  flex-basis: 30%;
+  text-align: left;
+  justify-content: space-between;
+}
+.CardTitle {
+  font-weight: 500;
+  margin-top: 12px 0;
+  text-align: center;
+}
+
+hr {
+  border-color: #00ff19;
+  margin-bottom: 12px 0;
+  width: 100%;
+}
+
+.CardSubtitle {
+  display: block;
+  font-weight: 500;
+  font-size: 24px;
+  margin: 20px 0px 0px 20px;
+}
+
+.progress-bar-border {
+  margin: 0px 16px;
+  border: solid 1px #00ff19;
+}
+
+.progress-bar-border > div {
+  background-color: #00ff19;
+  width: 40%;
+  height: 10px;
+}
+
+.ItemList {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.Item {
+  margin: 5px 0px 5px 20px;
+}
+
+.Item::before {
+  content: "• ";
+  color: var(--green);
+  font-size: 30px;
+}

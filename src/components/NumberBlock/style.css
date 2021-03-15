@@ -1,0 +1,9 @@
+.NumberBlock {
+  display: flex;
+  flex-direction: column;
+}
+
+.NumberBlock p {
+  font-size: 25px;
+  margin: 5px 0;
+}

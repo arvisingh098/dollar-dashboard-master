@@ -1,0 +1,27 @@
+.TextBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 12px 0;
+}
+
+.TextBlock p {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 15px 0 0;
+  display: block;
+}
+
+.TextBlock h3 {
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: block;
+}

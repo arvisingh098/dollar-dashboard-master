@@ -1,0 +1,20 @@
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 16px 0;
+}
+
+ul li {
+  list-style: none;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+@media only screen and (max-width: 1366px) {
+  ul li {
+    margin: 8px;
+  }
+}

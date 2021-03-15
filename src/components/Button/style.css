@@ -1,0 +1,77 @@
+button:hover {
+  animation: flicker2 0.1s infinite alternate;
+  color: #000;
+  border: 1px solid transparent;
+  box-shadow: 0 0 40px #0a0, inset 0 0 40px #0a0;
+}
+
+button.border-button {
+  cursor: pointer;
+  display: inline-block;
+  background-color: transparent;
+  border: 0;
+  border: 2px solid var(--green);
+  margin-left: auto;
+}
+
+button.border-button:focus {
+  outline: none;
+}
+
+button.border-button span {
+  padding: 12px 32px;
+  font-size: 20px;
+  color: var(--green);
+  border-radius: 6px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+button.wide {
+  width: 500px;
+  margin: 50px 0;
+}
+
+button.wide span {
+  font-size: 40px;
+  padding: 15px 80px;
+}
+
+button.glued {
+  margin-left: 2px;
+}
+
+button.rectangle span {
+  border-radius: 0px;
+}
+
+@media only screen and (max-width: 1366px) {
+  button.wide {
+    width: 400px;
+    margin: 40px 0;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  button.wide {
+    width: 300px;
+    margin: 30px 0;
+  }
+
+  button.wide span {
+    font-size: 30px;
+    padding: 10px 50px;
+  }
+
+  button.border-button span {
+    padding: 14px 36px;
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  button.wide {
+    width: 250px;
+    margin: 15px 0;
+  }
+}

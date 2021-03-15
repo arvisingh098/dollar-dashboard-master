@@ -1,0 +1,34 @@
+.AddressBlock {
+  display: flex;
+  flex-direction: column;
+}
+
+.AddressBlock h3 {
+  font-size: 25px;
+}
+
+.AddressBlock p {
+  font-size: 22px;
+  margin: 6px 0;
+}
+
+@media only screen and (max-width: 1366px) {
+  .AddressBlock h3 {
+    font-size: 20px;
+  }
+
+  .AddressBlock p {
+    font-size: 18px;
+    margin: 3px 0;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .AddressBlock h3 {
+    font-size: 18px;
+  }
+
+  .AddressBlock p {
+    font-size: 12px;
+  }
+}

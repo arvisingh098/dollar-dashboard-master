@@ -1,0 +1,38 @@
+.Row {
+  border: 1px solid var(--green);
+  margin: 25px 0;
+}
+
+.Row h2 {
+  border: 1px solid var(--green);
+  padding: 8px 12px;
+  flex-basis: 100%;
+  font-size: 35px;
+  font-weight: 200;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.row-content {
+  margin: 0 40px;
+}
+
+@media only screen and (max-width: 1366px) {
+  .row-content ul li {
+    font-size: 90%;
+    flex-basis: 33%;
+    justify-content: center;
+  }
+
+  .row-content {
+    margin: 0 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .row-content ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

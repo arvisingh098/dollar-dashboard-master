@@ -1,0 +1,15 @@
+.PurchaseCoupons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.table-title-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.table-title-row h2 {
+  margin: 30px 0;
+}
